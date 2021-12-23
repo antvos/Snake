@@ -54,6 +54,10 @@ public class Game : MonoBehaviour
 
     public void Level_First()
     {
+        SceneManager.LoadScene(1);
+    }
+    public void Start_Menu()
+    {
         SceneManager.LoadScene(0);
     }
     public void Stop()
