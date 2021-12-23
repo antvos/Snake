@@ -26,8 +26,7 @@ public class Game : MonoBehaviour
     }
     private void Start()
     {
-        int _currentLvl = SceneManager.GetActiveScene().buildIndex + 1;
-        Number_LVL.text = "Level: " + _currentLvl.ToString();
+        Number_LVL.text = "Level: " + SceneManager.GetActiveScene().buildIndex;
     }
 
     public void HPAdd()
